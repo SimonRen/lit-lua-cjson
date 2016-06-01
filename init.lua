@@ -1,6 +1,8 @@
 local ffi        = require "ffi"
+
 local names = {
   ["Linux-x64"] = "cjson.so"
+  ["OSX-x64"] = "cjson.so"
 }
 
 local arch = ffi.os .. "-" .. ffi.arch
